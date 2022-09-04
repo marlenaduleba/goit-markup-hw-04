@@ -102,7 +102,6 @@ body {
 .left-icon,
 .right-icon {
   margin-right: 10px;
-  color: var(--blue);
 }
 
 .left-icon .contacts-icon{
