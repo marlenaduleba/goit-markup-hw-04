@@ -99,6 +99,24 @@ body {
   text-decoration: none;
 }
 
+.left-icon, .right-icon{
+  margin-right: 10px;
+}
+
+
+.left-icon:hover,
+.left-icon:focus,
+.right-icon:hover,
+.right-icon:focus{
+  --color1:currentColor;
+}
+
+.contacts-links-top >.left-icon,
+.contacts-links-top >.right-icon{
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .page-top .container {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -119,6 +137,7 @@ body {
 
 .header-right {
   display: block;
+  color: var(--blue);
 }
 
 .link-gap {
@@ -203,7 +222,8 @@ body {
   height: 70px;
 }
 
-.section-descriptions-list-title {
+.list-title {
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -293,6 +313,7 @@ body {
 
 .social-links-item:hover,
 .social-links-item:focus {
+  cursor: pointer;
 background-color: var(--blue);
 --color3: currentColor;
 
@@ -301,6 +322,35 @@ background-color: var(--blue);
 .social-icon {
   width: 20px;
   height: 20px;
+}
+
+.section-brands-list{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+color: var(--blue);
+}
+.brand-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.brand-icon{
+width: 106px;
+height: 60.04px;
+}
+
+.brand-item:hover,
+.brand-item:focus{
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  --color3:currentColor
 }
 
 /************* PORTFOLIO ***************/
@@ -370,6 +420,7 @@ background-color: var(--blue);
   background-color: var(--background-black);
   padding-top: 60px;
   padding-bottom: 60px;
+  color: var(--white);
 }
 
 .page-bottom .logo-link {
@@ -379,7 +430,11 @@ background-color: var(--blue);
 }
 
 .page-bottom .container {
-  display: block;
+  display: flex;
+}
+
+.footer-address{
+  margin-right: 70px;
 }
 
 .contacts-bottom {
@@ -395,4 +450,34 @@ background-color: var(--blue);
   text-decoration: none;
   color: var(--white-transparent);
   margin-bottom: 9px;
+}
+
+.footer-social{
+width: 206px;
+height: 80px;
+padding-top: 12px;
+}
+
+.footer-social > .social-links{
+  margin: 0;
+  width: 206px;
+  height: 44px;
+}
+
+.page-bottom .social-links-item{
+background-color: rgba(255, 255, 255, 0.1);
+--color3:currentColor;
+}
+
+.page-bottom .social-links-item:hover,
+.page-bottom .social-links-item:focus{
+background-color: var(--blue);
+}
+
+
+.social.list-title{
+  margin-bottom: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  
 }
