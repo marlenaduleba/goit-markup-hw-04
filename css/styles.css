@@ -52,8 +52,8 @@ body {
 .navigation-links:focus,
 .contacts-links-top:hover,
 .contacts-links-top:focus,
-.contacts-links-top:hover .icon,
-.contacts-links-top:focus .icon,
+.contacts-links-top:hover .contacts-icon,
+.contacts-links-top:focus .contacts-icon,
 .contacts-links-bottom:hover,
 .contacts-links-bottom:focus {
   color: var(--blue);
