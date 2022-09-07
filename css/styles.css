@@ -44,12 +44,12 @@ body {
   color: var(--gray);
   margin: 0;
 }
-.logo-link:hover .logo-link-dark-theme, 
-.logo-link:focus .logo-link-dark-theme, 
+.logo-link:hover .logo-link-dark-theme,
+.logo-link:focus .logo-link-dark-theme,
 .logo-link-dark-theme:hover,
 .logo-link-dark-theme:focus,
-.logo-link:hover .logo-link-light-theme, 
-.logo-link:focus .logo-link-light-theme, 
+.logo-link:hover .logo-link-light-theme,
+.logo-link:focus .logo-link-light-theme,
 .logo-link-light-theme:hover,
 .logo-link-light-theme:focus,
 .navigation-links:hover,
@@ -114,12 +114,12 @@ body {
   fill: var(--gray);
 }
 
-.left-icon .contacts-icon{
+.left-icon .contacts-icon {
   width: 16px;
   height: 12px;
 }
 
-.right-icon .contacts-icon{
+.right-icon .contacts-icon {
   width: 10px;
   height: 16px;
 }
@@ -397,23 +397,22 @@ body {
 }
 
 .button-filter:hover,
-.button-filter:focus,
-.button-main:hover,
-.button-main:focus {
+.button-filter:focus {
   cursor: pointer;
   color: var(--white);
   background-color: var(--blue);
 }
 
 .button-filter:hover,
-.button-filter:focus{
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12),
-  0 1px 2px rgba(0, 0, 0, 0.08),
-  0 3px 1px rgba(0, 0, 0, 0.1)
+.button-filter:focus {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08),
+    0 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .button-main:hover,
-.button-main:focus{
+.button-main:focus {
+  cursor: pointer;
+  background-color: #3da0f1;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
